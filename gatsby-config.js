@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://astridx.github.io/gatsbystarter/gatsby-starter-maplibre-default/`,
     title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Kick off your next, great Gatsby Maplibre project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: `Astrid Günther`,
+    mapboxToken: process.env.GATSBY_MAPBOX_API_TOKEN,
+    maptilerToken: process.env.GATSBY_MAPTILER_TOKEN,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
